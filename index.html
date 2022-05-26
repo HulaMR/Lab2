@@ -46,16 +46,15 @@
     <h1 class="bi bi-calendar-check"> ToDo</h1>
     <div id="todo">
         <input id="add-item" type="text" name="item" 
-        placeholder="Add an item..." onkeypress="start(event)">
+        placeholder="Add an item..." 
+        onkeypress="controller.addItem(event)">
         <ul id="list" ></ul>
     </div>
 
     <div class="footer">Footer</div>
 
-<script type="module" src="MVC/main.js">
+<script type="text/javascript" src="MVC/main.js"></script>
 
-    
-</script>
 
 </body>
 </html>
